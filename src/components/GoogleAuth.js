@@ -60,6 +60,7 @@ class GoogleAuth extends React.Component {
   }
 }
 
+// Access redux store state
 const mapStateToProps = state => {
   return { isSignedIn: state.auth.isSignedIn };
 };
